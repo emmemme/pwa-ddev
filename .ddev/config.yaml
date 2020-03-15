@@ -1,5 +1,5 @@
 APIVersion: v1.13.1
-name: pwa-demo
+name: pwa-bspackage
 type: typo3
 docroot: public
 php_version: "7.2"
@@ -8,14 +8,13 @@ router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames:
-- api.pwa-demo
+- api.pwa-bspackage
 additional_fqdns: []
 mariadb_version: "10.2"
 nfs_mount_enabled: false
 provider: default
 hooks:
   post-start:
-  - exec: /var/www/html/.ddev/import-if-empty.sh
   - exec: composer install --ignore-platform-reqs
   - exec: cd front && npm init nuxt-typo3 --answers "$(< ./recommended.json)"
   - exec: cd front && yarn build

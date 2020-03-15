@@ -1,7 +1,7 @@
 {
-  "name": "pwa-demo",
-  "author": "TYPO3 PWA Initiative",
-  "description": "TYPO3 PWA Demo Site",
+  "name": "pwa-bspackage",
+  "author": "PWA and Boostrap Package",
+  "description": "TYPO3 PWA and Boostrap Package site",
   "pm": "yarn",
   "ui": "none",
   "server": "none",
@@ -10,8 +10,8 @@
   "test": "jest",
   "mode": "universal",
   "devTools": "jsconfig.json",
-  "api": "https://pwa-demo.ddev.site/api",
+  "api": "https://pwa-bspackage.ddev.site/api",
   "cert": "unsafe",
-  "locales":["en","pl", "de"],
+  "locales":["en"],
   "locale":["en"]
 }

@@ -1,4 +1,4 @@
-base: api.pwa-demo.ddev.site
+base: api.pwa-bspackage.ddev.site
 baseVariants: {  }
 errorHandling: {  }
 languages:
@@ -13,34 +13,6 @@ languages:
     direction: ltr
     typo3Language: default
     flag: us
-    enabled: true
-  -
-    languageId: '1'
-    title: Polish
-    navigationTitle: Polish
-    base: /pl/
-    locale: pl_PL.UTF-8
-    iso-639-1: pl
-    hreflang: pl-PL
-    direction: ltr
-    typo3Language: default
-    flag: pl
-    fallbackType: fallback
-    fallbacks: '0'
-    enabled: true
-  -
-    languageId: '2'
-    title: German
-    navigationTitle: Deutsch
-    base: /de/
-    locale: de_DE.UTF8
-    iso-639-1: de
-    hreflang: de-DE
-    direction: ltr
-    typo3Language: de
-    flag: de
-    fallbackType: fallback
-    fallbacks: '0'
     enabled: true
 rootPageId: 1
 routes: {  }

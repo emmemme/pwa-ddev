@@ -5,12 +5,16 @@
         "url": "https://composer.typo3.org/"
       }
     ],
-    "name": "friendsoftypo/pwa-demo",
+    "name": "gmx3/pwa-bspackage",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Łukasz Uznański",
             "email": "extensions@macopedia.pl"
+        },
+        {
+          "name": "Maurizio Morini",
+          "email": "morini@gammsystem.com"
         }
     ],
     "require": {
@@ -50,11 +54,13 @@
         "typo3/cms-t3editor": "^9.5.0",
         "typo3/cms-tstemplate": "^9.5.0",
         "typo3/cms-viewpage": "^9.5.0",
+        "bk2k/bootstrap-package": "^10.0",
+        "typo3/cms-introduction": "4.0.1",        
         "friendsoftypo3/headless": "@dev"
     },
     "scripts": {
       "typo3-cms-scripts": [
-        "typo3 extension:activate site_package"
+        "typo3 extension:activate pwa_site_package"
       ],
       "post-autoload-dump": [
         "@typo3-cms-scripts"
