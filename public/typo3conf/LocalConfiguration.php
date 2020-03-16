@@ -80,8 +80,8 @@ return [
         'features' => [
             'unifiedPageTranslationHandling' => true,
         ],
-        'sitename' => 'PWA Demo',
-        'systemLogLevel' => 2,
+        'sitename' => 'PWA Boostrap Package Demo',
+        'systemLogLevel' => 1,
         'systemMaintainers' => [
             2,
         ],
